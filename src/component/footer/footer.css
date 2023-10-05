@@ -433,6 +433,6 @@
     }
     .text-wrapper
     {
-        font-size: 17px;
+        font-size: 17px !important;
     }
   }
