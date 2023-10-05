@@ -427,4 +427,12 @@
     {
         gap: 47px !important;
     }
+    .text-wrapper-imp
+    {
+        width: 170px !important;
+    }
+    .text-wrapper
+    {
+        font-size: 17px;
+    }
   }

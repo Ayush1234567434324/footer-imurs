@@ -32,3 +32,16 @@
 .button-secondary:hover .ORDER-NOW {
     color: var(--newisabeline);
 }
+
+@media screen and (max-width: 550px)
+{
+    .button-secondary 
+    {
+        width: 10px;
+        
+    }
+    .ORDER-NOW
+    {
+        font-size: 8px !important;
+    }
+}

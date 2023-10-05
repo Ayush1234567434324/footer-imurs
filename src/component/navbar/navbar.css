@@ -157,3 +157,12 @@
     from {transform: scaleY(0);}
     to {transform: scaleY(1);}
   }
+
+
+  @media screen and (max-width: 550px)
+  {
+    .navTitle
+    {
+        font-size: 36px !important;
+    }
+  }
