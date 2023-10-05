@@ -38,12 +38,12 @@ export const PropertyFooterWrapper = ({ property1, star = "image.svg" }) => {
                
                 <div className="frame-6">
                     <div className="frame-7">
-                    <div class="social-container">
-    <div class="social-column">
+                    <div className="social-container">
+    <div className="social-column">
         <Socials className="socials-instance text-wrapper-imp" property1="default" text="LINKEDIN" />
         <Socials className="instance-node text-wrapper-imp down-column" property1="default" text="INSTAGRAM" />
     </div>
-    <div class="social-column ">
+    <div className="social-column ">
         <Socials className="instance-node text-wrapper-imp" property1="default" text="FACEBOOK" />
         <Socials className="frame-8 text-wrapper-imp down-column" property1="default" text="TWITTER" />
     </div>
@@ -51,11 +51,11 @@ export const PropertyFooterWrapper = ({ property1, star = "image.svg" }) => {
 
                     </div>
                     <div className="frame-9">
-                    <div class="social-column-1">
+                    <div className="socials-column-1" style={{display:"flex" , gap:"10rem"}}>
                         <div>PRIVACY POLICY</div>
                         <div className="down-column">CANCELLATION &amp; REFUND POLICY</div>
                         </div>
-                        <div class="social-column-1">
+                        <div className="socials-column-1" style={{display:"flex" , gap:"10rem"}} >
                         <div>TERMS &amp; CONDITIONS</div>
                         <div className="down-column">CONTACT US</div>
                         </div>
