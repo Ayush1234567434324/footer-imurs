@@ -377,22 +377,7 @@
     }
   }
   
-  @media screen and (max-width: 600px)
-  {
-    .text-wrapper-2 {
-        font-size: 120px !important;
-      }
-      .text-wrapper-3 {
-        font-size: 12px !important;
-        letter-spacing: 2.0px !important;
-        left: -12px !important;
-      }
-      .frame-5
-      {
-        left: 94px !important;
-      }
 
-  }
  
   @media screen and (max-width: 600px)
   {
@@ -409,6 +394,14 @@
         
        left: 25px !important; 
     }
+    .text-wrapper-2 {
+        font-size: 120px !important;
+      }
+      .text-wrapper-3 {
+        font-size: 12px !important;
+        letter-spacing: 2.0px !important;
+        left: -12px !important;
+      }
   }
 
   @media screen and (max-width: 500px)
@@ -435,4 +428,44 @@
     {
         font-size: 17px !important;
     }
+    .text-wrapper-2 {
+        font-size: 100px !important;
+      }
+      .text-wrapper-3 {
+        font-size: 12px !important;
+        letter-spacing: 1px !important;
+        left: -28px !important;
+      }
   }
+
+  @media screen and (max-width: 400px)
+  {
+    .text-wrapper-2 {
+        font-size: 80px !important;
+      }
+      .text-wrapper-3 {
+        font-size: 11px !important;
+        letter-spacing: 0px !important;
+        left: -29px !important;
+      }
+    .text-wrapper-imp
+    {
+        width: 150px !important;
+    }
+    .star
+    {
+        height: 300px !important;
+    }
+    .social-container {
+        margin-right: 0rem !important;
+      }
+      .text-wrapper-imp
+      {
+          width: 140px !important;
+      }
+      .text-wrapper
+      {
+        font-size: 12px !important;
+      }
+  }
+  
