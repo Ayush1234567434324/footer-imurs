@@ -1,0 +1,12 @@
+.box {
+    height: 684px;
+    width: 421px;
+    }
+    .box .rectangle {
+    background-color: var(--persian-red);
+    height: 684px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 421px;
+    } 
