@@ -394,3 +394,37 @@
 
   }
  
+  @media screen and (max-width: 600px)
+  {
+
+    .frame-5
+    {
+      left: 50px !important;
+    }
+    .social-container
+    {
+        margin-right: 3rem !important;
+    }
+    .frame-6{
+        
+       left: 25px !important; 
+    }
+  }
+
+  @media screen and (max-width: 500px)
+  {
+    .frame-6{
+       
+       left: 14px !important;
+    }
+
+    .socials-column-1
+    {
+       font-size: 15px;
+      
+    }
+    .frame-9
+    {
+        gap: 47px !important;
+    }
+  }
