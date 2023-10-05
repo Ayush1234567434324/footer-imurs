@@ -38,16 +38,27 @@ export const PropertyFooterWrapper = ({ property1, star = "image.svg" }) => {
                
                 <div className="frame-6">
                     <div className="frame-7">
-                        <Socials className="socials-instance text-wrapper-imp" property1="default" text="LINKEDIN" />
-                        <Socials className="instance-node text-wrapper-imp" property1="default" text="INSTAGRAM" />
-                        <Socials className="instance-node text-wrapper-imp" property1="default" text="FACEBOOK" />
-                        <Socials className="frame-8 text-wrapper-imp" property1="default" text="TWITTER" />
+                    <div class="social-container">
+    <div class="social-column">
+        <Socials className="socials-instance text-wrapper-imp" property1="default" text="LINKEDIN" />
+        <Socials className="instance-node text-wrapper-imp down-column" property1="default" text="INSTAGRAM" />
+    </div>
+    <div class="social-column ">
+        <Socials className="instance-node text-wrapper-imp" property1="default" text="FACEBOOK" />
+        <Socials className="frame-8 text-wrapper-imp down-column" property1="default" text="TWITTER" />
+    </div>
+</div>
+
                     </div>
                     <div className="frame-9">
-                        <div className="text-wrapper-4">PRIVACY POLICY</div>
-                        <div className="text-wrapper-4">CANCELLATION &amp; REFUND POLICY</div>
-                        <div className="text-wrapper-4">TERMS &amp; CONDITIONS</div>
-                        <div className="text-wrapper-4">CONTACT US</div>
+                    <div class="social-column-1">
+                        <div>PRIVACY POLICY</div>
+                        <div className="down-column">CANCELLATION &amp; REFUND POLICY</div>
+                        </div>
+                        <div class="social-column-1">
+                        <div>TERMS &amp; CONDITIONS</div>
+                        <div className="down-column">CONTACT US</div>
+                        </div>
                     </div>
                 </div>
             </div>

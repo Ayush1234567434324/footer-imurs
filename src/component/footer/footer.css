@@ -189,15 +189,16 @@
 
 .property-footer-wrapper .socials-instance {
     width: 331px;
+    margin-right: 0px !important;
 }
 
 .property-footer-wrapper .instance-node {
-    margin-left: -2px !important;
-    width: 332px ;
+    margin-left: 0px !important;
+    width: 331px ;
 }
 
 .property-footer-wrapper .frame-8 {
-    margin-left: -2px ;
+    margin-left: 0px !important ;
     width: 331px ;
 }
 
@@ -239,6 +240,19 @@
     width: 226px;
 }
 
+.social-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.social-column {
+   display: flex;
+}
+.social-container-1
+{
+    display: flex;
+  flex-direction: row;
+}
 
 
 @media screen and (max-width: 1500px)
@@ -261,10 +275,28 @@
     .text-wrapper-imp
     {
 
-       width: 200px !important;
+       width: 230px !important;
     }
    
   }
+
+  @media screen and (max-width: 1100px)
+  {
+    .text-wrapper-imp
+    {
+
+       width: 220px !important;
+    }
+  }
+  @media screen and (max-width: 1000px)
+  {
+    .text-wrapper-imp
+    {
+
+       width: 200px !important;
+    }
+  }
+
 
   @media screen and (max-width: 900px)
   {
@@ -276,10 +308,68 @@
 
        
     }
+    .text-wrapper-2 {
+        font-size: 150px !important;
+      }
+      .text-wrapper-3 {
+        font-size: 12px !important;
+        letter-spacing: 4.0px !important;
+      }
+    .frame-7
+    {
+        right: 3rem;
+    }
 
+    .text-wrapper-imp
+    {
 
+       width: 300px !important;
+    }
+
+    .social-container {
+        display: flex;
+        justify-content: space-between; /* Adjust this to control the gap between columns */
+    }
+    
+    .social-column {
+        flex: 1;
+        display:block;
+        margin: 0 10px; /* Adjust the margin to control the space between columns */
+    }
+    .down-column
+    {
+        margin-top: 1rem;
+    }
   }
 
+  @media screen and (max-width: 700px)
+  {
+    .frame-7
+    {
+        right: 0rem;
+    }
+    
+    .text-wrapper-imp
+    {
+
+       width: 200px !important;
+    }
+  }
   
-  
+  @media screen and (max-width: 600px)
+  {
+    .text-wrapper-2 {
+        font-size: 120px !important;
+      }
+      .text-wrapper-3 {
+        font-size: 12px !important;
+        letter-spacing: 2.0px !important;
+        left: -12px !important;
+      }
+      .frame-5
+      {
+        left: 94px !important;
+      }
+
+  }
  
